@@ -1,0 +1,80 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <!--MainActivity theme-->
+    <style name="ForecastTheme" parent="AppTheme">
+        <item name="actionBarStyle">@style/ActionBar.Solid.Sunshine.NoTitle</item>
+    </style>
+
+
+    <!--MainActivity action bar style-->
+    <style name="ActionBar.Solid.Sunshine.NoTitle" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="displayOptions">useLogo|showHome</item>
+        <item name="logo">@drawable/ic_logo</item>
+    </style>
+
+    <!-- Detail activity theme.-->
+    <style name="DetailTheme" parent="AppTheme"></style>
+
+    <!-- Settings activity theme.-->
+    <style name="SettingsTheme" parent="AppTheme"></style>
+
+    <!--No need this below code.-->
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="ForecastListStyle"></style>
+
+    <!-- Detail activity theme.
+   <style name="DetailTheme" parent="AppTheme">
+       <item name="actionBarStyle">@style/ActionBar.Solid.Sunshine.DetailActivity</item>
+   </style>
+
+   <style name="ActionBar.Solid.Sunshine.DetailActivity" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+       <item name="displayOptions">useLogo|showHome</item>
+       <item name="logo">@drawable/art_clear</item>
+   </style>-->
+
+    <!-- Settings activity theme.
+    <style name="SettingsTheme" parent="AppTheme">
+        <item name="actionBarStyle">@style/ActionBar.Solid.Sunshine.SettingActivity</item>
+    </style>
+
+    <style name="ActionBar.Solid.Sunshine.SettingActivity" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="displayOptions">useLogo|showHome</item>
+        <item name="logo">@drawable/art_clear</item>
+    </style> -->
+
+    <!-- Base application theme. -->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+    <!-- Customize your theme here. -->
+    <!--  <item name="actionBarStyle">@style/ActionBar.Solid.Sunshine</item>
+-->
+    <!--</style>-->
+
+    <!--ActionBar Style-->
+    <!--  <style name="ActionBar.Solid.Sunshine" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+          <item name="android:background">@color/sunshine_green</item>
+      </style>-->
+
+    <!--MainActivity theme-->
+    <!-- <style name="ForecastTheme" parent="AppTheme">
+         <item name="actionBarStyle">@style/ActionBar.Solid.Sunshine.NoTitle</item>
+     </style>-->
+
+
+    <!--MainActivity action bar style-->
+    <!--    <style name="ActionBar.Solid.Sunshine.NoTitle" parent="@style/ActionBar.Solid.Sunshine">
+            <item name="displayOptions">useLogo|showHome</item>
+            <item name="logo">@drawable/ic_logo</item>
+        </style>-->
+</resources>

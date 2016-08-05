@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--state_pressed-->
+    <item android:drawable="@color/sunshine_light_green" android:state_pressed="true" />
+
+    <!--state_activated-->
+    <item android:drawable="@color/sunshine_light_green" android:state_activated="true" />
+
+    <!--state_selected-->
+    <item android:drawable="@color/sunshine_light_green" android:state_selected="true" />
+
+    <!--state_default,
+    pick up what you like customize color below code below.-->
+    <item android:drawable="@color/sunshine_green" />
+</selector>
